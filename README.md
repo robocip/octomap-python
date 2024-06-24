@@ -69,8 +69,9 @@ python -m pip install -r requirements.txt
 
 ## フォーク元との違い
 
+octomap.pyxで
 
-exampleでライブラリの問題が生じていたので使用するライブラリのversionを修正
+exampleでライブラリの問題が生じていたので使用するライブラリのversion指定を実施
 ・trimeshはversion4.0以降だと動かなかった（2024/6/21現在）4未満を使用すること
 ・pygletはversion2.0以降だと動かなかった（2024/6/21現在）4未満を使用すること
 

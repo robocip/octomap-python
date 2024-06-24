@@ -35,17 +35,7 @@ def get_or_install(name, version=None):
 
 
 def get_long_description():
-    with open("README.md") as f:
-        long_description = f.read()
-
-    try:
-        import github2pypi
-
-        return github2pypi.replace_url(
-            slug="wkentaro/octomap-python", content=long_description
-        )
-    except Exception:
-        return long_description
+    return "it is a fork of wkentaro/octomap-python"
 
 
 def main():
@@ -86,9 +76,9 @@ def main():
             "example": ["glooey", "imgviz>=1.2.0", "pyglet", "trimesh[easy]<4"],
         },
         license="BSD",
-        maintainer="Kentaro Wada",
-        maintainer_email="www.kentaro.wada@gmail.com",
-        url="https://github.com/wkentaro/octomap-python",
+        maintainer="Kensuke Ueda",
+        maintainer_email="ueda.kensuke@robocip.or.jp",
+        url="https://github.com/robocip/octomap-python",
         description="Python binding of the OctoMap library.",
         long_description=get_long_description(),
         long_description_content_type="text/markdown",
