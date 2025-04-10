@@ -69,12 +69,12 @@ python -m pip install -r requirements.txt
 
 ## フォーク元との違い
 
-octomap.pyxで
+octomap.pyxで__（アンスコ２つ）で始まる関数名を_(アンスコ１つ)の関数名に変更
 
 exampleでライブラリの問題が生じていたので使用するライブラリのversion指定を実施
-・trimeshはversion4.0以降だと動かなかった（2024/6/21現在）4未満を使用すること
-・pygletはversion2.0以降だと動かなかった（2024/6/21現在）4未満を使用すること
+- trimeshはversion4.0以降だと動かなかった（2024/6/21現在）4未満を使用すること
+- pygletはversion2.0以降だと動かなかった（2024/6/21現在）4未満を使用すること
 
 ## Acknowledgement
 
-This is a fork of [wkentaro/python-octomap](https://github.com/wkentaro/python-octomap).
+This is a fork of [wkentaro/octomap-python](https://github.com/wkentaro/octomap-python).
